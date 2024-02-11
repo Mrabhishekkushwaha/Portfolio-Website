@@ -1,13 +1,7 @@
-let darkbtn = document.getElementById("darkbtn");
-
-darkbtn.addEventListener("click", () => {
-    document.body.style.background = "black"; 
-})
-darkbtn.addEventListener("ondblclick", () => {
-    document.body.style.background = "red"; 
-})
-
-
+function darkmode(){
+    const body = document.body;
+    body.classList.toggle("dark-mode");
+}
 
 $(document).ready(function () {
 

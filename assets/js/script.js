@@ -1,3 +1,14 @@
+let darkbtn = document.getElementById("darkbtn");
+
+darkbtn.addEventListener("click", () => {
+    document.body.style.background = "black"; 
+})
+darkbtn.addEventListener("ondblclick", () => {
+    document.body.style.background = "red"; 
+})
+
+
+
 $(document).ready(function () {
 
     $('#menu').click(function () {
